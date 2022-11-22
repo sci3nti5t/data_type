@@ -1,4 +1,4 @@
-# DataType
+# DataType [![Ruby](https://github.com/sci3nti5t/data_type/actions/workflows/ruby.yml/badge.svg)](https://github.com/sci3nti5t/data_type/actions/workflows/ruby.yml)
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/data_type`. To experiment with that code, run `bin/console` for an interactive prompt.
 
