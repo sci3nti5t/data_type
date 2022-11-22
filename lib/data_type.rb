@@ -25,7 +25,7 @@ class DataType
   def self.instance?(object = nil)
 
     boolean = false
-    TYPES.each { |type| if (obj.is_a?(type)) then boolean = true end }
+    TYPES.each { |type| if (object.is_a?(type)) then boolean = true end }
     return boolean
 
   end
