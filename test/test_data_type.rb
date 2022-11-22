@@ -17,7 +17,7 @@ class TestDataType < Minitest::Test
     assert_path_exists("LICENSE.txt")
     assert_path_exists("README.md")
     assert_path_exists("CODE_OF_CONDUCT.md")
-    assert_path_exists(".yardoc")
+    refute_path_exists(".yardoc")
     assert_path_exists("Changelog.md")
 
   end
