@@ -1,5 +1,5 @@
 # Copyright (c) 2022 Bradley J. Tannor. All rights reserved. Released under the
-# GNU General Public License, version 3. Refer LICENSE.txt.
+# MIT License. Refer LICENSE.txt.
 
 # frozen_string_literal: true
 

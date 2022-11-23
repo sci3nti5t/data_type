@@ -9,15 +9,15 @@ Gem::Specification.new do |spec|
   spec.authors = ["Bradley J. Tannor"]
   spec.email = ["tannorbradley@gmail.com"]
 
-  spec.summary = "A DataType library"
-  spec.description = "The DataType class defines a data type set. The set includes Numeric, FalseClass, Symbol, TrueClass, and NilClass. All methods are class methods."
+  spec.summary = "A DataType class library"
+  spec.description = "The DataType class defines a data type set. Defines an atomic data type. The Data types are Numeric, TrueClass, FalseClass, Symbol, and NilClass. Provides predicates verifying classes and class instances are data types."
   spec.homepage = "https://github.com/sci3nti5t/data_type"
-  spec.license = "GNU GPLv3"
+  spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/sci3nti5t/data_type"
-  spec.metadata["changelog_uri"] = "https://github.com/sci3nti5t/data_error/blob/master/Changelog.md"
+  spec.metadata["changelog_uri"] = "https://github.com/sci3nti5t/data_type/blob/master/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
