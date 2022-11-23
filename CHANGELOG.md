@@ -4,6 +4,12 @@
 
 ### Added
 
+- Tests
+- Complete README.md
+- GitHub ruby continuous integration
+- RBS
+- Class definition
+
 ### Edited
 
 ### Fixed

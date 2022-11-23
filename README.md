@@ -1,9 +1,23 @@
 # DataType [![Ruby](https://github.com/sci3nti5t/data_type/actions/workflows/ruby.yml/badge.svg)](https://github.com/sci3nti5t/data_type/actions/workflows/ruby.yml)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/data_type`. To experiment with that code, run `bin/console` for an interactive prompt.
+A `DataType` class library. Defines an atomic data type. The `DataType` types are
+`Numeric`, `TrueClass`, `FalseClass`, `Symbol`, and `NilClass`. Provides predicates
+verifying classes and class instances are data types. 
 
 ## Installation
 
+If using the gem as a developmental dependency, place the following in the gem
+specification file:
+
+```ruby
+spec.add_development_dependency 'data_type', "~> 1"
+```
+
+Or, if using the gem at runtime:
+
+```ruby
+spec.add_runtime_dependency 'data_type', "~> 1"
+```
 Install the gem and add to the application's Gemfile by executing:
 
 ```bash
@@ -18,11 +32,44 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
+There are five public methods, all class methods. There is one private constant
+containing the data types.
+
 ### Public 
 
-### Protected
+#### `self.types()`
+
+Reader method. Gets the data types stored in `TYPES`. Returns the array.
+
+#### `self.instance?(object = nil)`
+
+Predicate. Verifies an object is a data type instance. Takes any object as an
+argument, and returns `true` in the case the argument is a `Numeric`, `FalseClass`,
+`TrueClass`, `Symbol`, `TrueClass`, or `NilClass` class instance. `false` otherwise.
+
+#### `self.type?(type = nil)`
+
+Predicate. Verifies an identifier is a data type. Takes any identifier as an
+argument, and returns `true` in the case the identifier's type is `Numeric`,
+`FalseClass`, `TrueClass`, `Symbol`, or `NilClass`, or one of their ancestors. `false` otherwise.
+
+#### `self.types_element?(type = nil)`
+
+Predicate. Verifies an identifier exists in the `TYPES` array. Takes any
+identifier as an argument, and returns `true` in the case the argument exists in
+the array. Returns `false` otherwise.
+
+#### `self.type_child?(type = nil)`
+
+Predicate. Verifies an identifier is a `TYPES` element child. Takes any
+identifier as an argument, and returns `true` in the case the identifier is a
+`TYPES` element child. `false` otherwise.
 
 ### Private
+
+#### `TYPES = [Numeric, FalseClass, TrueClass, Symbol, NilClass].freeze()`
+
+An array containing the `DataType` data type constants.
 
 ## Development
 
@@ -43,6 +90,13 @@ https://github.com/sci3nti5t/data_type. This project is intended to be a safe,
 welcoming space for collaboration, and contributors are expected to adhere to
 the
 [code_of_conduct](https://github.com/sci3nti5t/data_type/blob/main/CODE_OF_CONDUCT.md).
+
+### Documentation errors
+
+In the case there is a mistake in the documentation, private message sci3nti5t
+and give:
+* Mistake description
+* Relevant line numbers
 
 ## License
 

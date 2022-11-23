@@ -1,4 +1,18 @@
-module DataType
+# Copyright (c) 2022 Bradley J. Tannor. All rights reserved. Released under the
+# GNU General Public License, version 3. Refer LICENSE.txt.
+
+class DataType
   VERSION: String
-  # See the writing guide of rbs: https://github.com/ruby/rbs#guides
+
+  def self.types -> Array
+
+  def self.instance?: (object: BasicObject) -> Boolean
+
+  def self.type?: (type: BasicObject) -> Boolean
+
+  def self.types_element?: (type: BasicObject) -> Boolean
+ 
+  def self.type_child?: (type: BasicObject) -> Boolean
+
+  TYPES: Array
 end
