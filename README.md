@@ -1,4 +1,4 @@
-# DataType [![Gem Version](https://badge.fury.io/rb/data_type.svg)](https://badge.fury.io/rb/data_type) 
+# DataType [![Gem Version](https://badge.fury.io/rb/data_type.svg)](https://badge.fury.io/rb/data_type) ![Gem](https://img.shields.io/gem/dt/data_type)
 
 A `DataType` class library. Defines an atomic data type. The `DataType` types are
 `Numeric`, `TrueClass`, `FalseClass`, `Symbol`, and `NilClass`. Provides predicates
