@@ -6,5 +6,5 @@
 # DataType
 # Description: A DataType class. Defines a data type set.
 class DataType
-  VERSION = "1.0.0".freeze()
+  VERSION = "1.0.1".freeze()
 end
