@@ -2,9 +2,9 @@
 
 require "test_helper"
 
-# TestDataType
+# DataTypeTest
 # Description: Tests the DataType class library.
-class TestDataType < Minitest::Test
+class DataTypeTest < Minitest::Test
   
   # Constants
   CLASS = DataType
@@ -53,7 +53,7 @@ class TestDataType < Minitest::Test
   # test_test_paths()
   # Description: The test files exist.
   def test_test_paths()
-    assert_path_exists('test/test_data_type.rb')
+    assert_path_exists('test/data_type_test.rb')
     assert_path_exists('test/test_helper.rb')
   end
 
@@ -70,6 +70,10 @@ class TestDataType < Minitest::Test
     assert_path_exists('bin/console')
     assert_path_exists('bin/setup')
   end
+
+  # test_signature_path()
+  # Description: The signature files exist.
+  def test_signature_paths() assert_path_exists('sig/data_type.rbs') end
 
   # test_that_it_has_a_version_number()
   # Description: The class has a version number.
