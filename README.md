@@ -104,4 +104,4 @@ The gem is available as open source under the terms of the
 
 Everyone interacting in the DataType project's codebases, issue trackers, chat
  rooms and mailing lists is expected to follow the 
-[Conduct code](https://github.com/sci3nti5t/data_type/blob/main/CODE_OF_CONDUCT.md).
+[conduct code](https://github.com/sci3nti5t/data_type/blob/main/CODE_OF_CONDUCT.md).
