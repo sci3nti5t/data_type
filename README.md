@@ -86,10 +86,7 @@ git commits and the created tag, and push the `.gem` file to
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at
-https://github.com/sci3nti5t/data_type. This project is intended to be a safe,
-welcoming space for collaboration, and contributors are expected to adhere to
-the
-[code_of_conduct](https://github.com/sci3nti5t/data_type/blob/main/CODE_OF_CONDUCT.md).
+https://github.com/sci3nti5t/data_type.
 
 ### Documentation errors
 
@@ -107,4 +104,4 @@ The gem is available as open source under the terms of the
 
 Everyone interacting in the DataType project's codebases, issue trackers, chat
  rooms and mailing lists is expected to follow the 
-[code of conduct](https://github.com/sci3nti5t/data_type/blob/main/CODE_OF_CONDUCT.md).
+[Conduct code](https://github.com/sci3nti5t/data_type/blob/main/CODE_OF_CONDUCT.md).

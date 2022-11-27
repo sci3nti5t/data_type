@@ -1,10 +1,10 @@
 # Copyright (c) 2022 Bradley J. Tannor. All rights reserved. Released under the
-# GNU General Public License, version 3. Refer LICENSE.txt.
+# MIT License. Refer LICENSE.txt.
 
 class DataType
   VERSION: String
 
-  def self.types -> Array
+  def self.types: () -> Array
 
   def self.instance?: (object: BasicObject) -> Boolean
 
